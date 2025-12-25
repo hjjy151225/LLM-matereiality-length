@@ -46,13 +46,17 @@ These problems are designed to evaluate professional-level economic judgment, in
 Experimental Design
 
 Models
+	
 	GPT-family model
+	
 	Gemini-family model
 
 Prompt Conditions
 
 Each question was evaluated under two conditions:
+	
 	1. Baseline: unconstrained response
+	
 	2. Length-constrained: approximately 150 words
 
 The same prompt structure and temperature settings were applied across models to ensure comparability.
@@ -62,8 +66,11 @@ The same prompt structure and temperature settings were applied across models to
 Domain Classification
 
 Each question belongs to one of the following domains:
+	 
 	  growth: firm growth, investment, and expansion-related questions
+	  
 	  intl: international economics and cross-border policy questions
+	  
 	  macro: macroeconomic and policy-level questions
 
 Note: The label intl refers to international economics, not internal or organizational decision-making.
@@ -94,9 +101,13 @@ V-index (Vulnerability Index)
 
 The V-index aggregates multiple fragility signals into a single indicator of judgment vulnerability under constraints.
 It combines:
+	  
 	  mean materiality loss
+	  
 	  elasticity magnitude
+	  
 	  cross-model variance
+	  
 	  domain-specific sensitivity
 
 The index is designed as an observational diagnostic, not a performance leaderboard.
@@ -104,9 +115,13 @@ The index is designed as an observational diagnostic, not a performance leaderbo
 ⸻
 
 Key Findings (Preliminary)
+	 
 	 Materiality loss is systematic, not random.
+	 
 	 International and macroeconomic questions exhibit higher fragility under compression.
+	 
 	 Models differ not only in magnitude of loss, but in which information is sacrificed.
+	 
 	 Shorter explanations are not necessarily worse—but beyond a threshold, judgment structure degrades nonlinearly.
 
 These patterns are stable across repeated experimental runs.
@@ -116,25 +131,40 @@ These patterns are stable across repeated experimental runs.
 Repository Structure
 
  .
+ 
  ├── README.md
+ 
  ├── analysis/
+ 
  │   ├── score_calculation.ipynb
+ 
  │   ├── elasticity_analysis.ipynb
+ 
  │   └── regression_checks.ipynb
+ 
  ├── plots/
+ 
  │   ├── score_scatter.svg
+ 
  │   ├── delta_scatter.svg 
+ 
  │   ├── domain_bar.svg
+ 
  │   └── elasticity_hist.svg
+ 
  └── notes/
-    └── experimental_log.md
+ 
+	└── experimental_log.md
 
 
 ⸻
 
 Scope and Limitations
+	
 	 This project does not claim causal identification.
+	 
 	 The analysis focuses on judgment behavior, not factual accuracy.
+	 
 	 Results should be interpreted as diagnostic observations, not model rankings.
 
 The goal is to provide a transparent framework for observing how economic reasoning changes when space becomes costly.
@@ -144,8 +174,11 @@ The goal is to provide a transparent framework for observing how economic reason
 Intended Use
 
 This repository is shared for:
+	 
 	 academic discussion
+	 
 	 methodological feedback
+	 
 	 reproducibility and transparency
 
 It is not intended for commercial deployment or benchmark competition.
