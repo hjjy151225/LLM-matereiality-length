@@ -197,6 +197,6 @@ Contact
 For questions or feedback, please contact:
 hjjy151225@snu.ac.kr
 
-Kim Minseok
+Kim Minsuk
 Graduate Student, Accounting
 Seoul National University
