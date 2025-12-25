@@ -23,9 +23,12 @@ In real-world applications—such as auditing, policy analysis, and professional
 Despite this, most LLM evaluations assume unconstrained outputs.
 
 This project asks a different question:
-	•	How does forced brevity alter what an LLM considers material?
-	•	Are certain economic domains more fragile under compression?
-	•	Can this fragility be measured quantitatively?
+
+	How does forced brevity alter what an LLM considers material?
+	
+	Are certain economic domains more fragile under compression?
+	
+	Can this fragility be measured quantitatively?
 
 ⸻
 
